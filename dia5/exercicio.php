@@ -8,7 +8,8 @@ while(true){
         echo "
         1 - Cadastrar Profissional
         2 - Alterar Profissional
-        3 - Excluir Profissional" . "\n";
+        3 - Excluir Profissional
+        4 - Listar Profissionais " . "\n";
         
     
     
@@ -37,8 +38,11 @@ while(true){
                 echo "Excluir";
                 break;
             };
-            case 5: {
-                exit();
+            case 4: {
+            
+                for ($i = 0; $i < count($profissionais); $i++) {
+                    echo "$profissionais[$i] " . "\n";
+                };
             };
         }
     
