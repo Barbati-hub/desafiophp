@@ -43,3 +43,4 @@ foreach($pessoasArray as $pessoa) {
     echo "Nome: {$pessoa["idade"]} \n";
     echo "Nome: {$pessoa["cidade"]} \n";
 }
+
