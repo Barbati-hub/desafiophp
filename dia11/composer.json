@@ -1,0 +1,28 @@
+{
+    "name": "desafio/cadastro_produto",
+    "description": "Desafio de cadastro de produto, feito no desafio de PHP",
+    "license": "free",
+    "autoload": {
+        "psr-4": {
+            "Desafio\\CadastroProduto\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Barbati-hub",
+            "email": "douglas-ltda@hotmail.com.br"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "catfan/medoo": "^2.1"
+    },
+
+    
+    "scripts": {
+        "start": "php src/init.php"
+    }
+   
+
+    
+}
