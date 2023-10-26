@@ -1,0 +1,24 @@
+{
+    "name": "douglas/ecommerce-desafio",
+    "description": "Free",
+    "license": "Free",
+    "autoload": {
+        "psr-4": {
+            "Douglas\\EcommerceDesafio\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Barbati-hub",
+            "email": "douglas-ltda@hotmail.com.br"
+        }
+    ],
+    
+    "scripts": {
+        "start": "php -S localhost:8080 src/index.php"
+    },
+    
+    "require": {
+        "slim/slim": "^4.0"
+    }
+}

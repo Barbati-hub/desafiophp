@@ -1,0 +1,30 @@
+{
+    "name": "douglas/ecommerce-desafio",
+    "description": "Desafio Php",
+    "license": "Free",
+    "autoload": {
+        "psr-4": {
+            "Douglas\\EcommerceDesafio\\": "src/"
+            
+        }
+    },
+    "authors": [
+        {
+            "name": "Barbati-hub",
+            "email": "douglas-ltda@hotmail.com.br"
+        }
+    ],
+
+    "require": {
+        "slim/slim": "^4.0",
+        "slim/psr7": "^1.6"
+    },
+
+    "config":{
+        "process-timeout": 900
+    },
+
+    "scripts": {
+        "start": "php -S localhost:8080 src/index.php"
+    }
+}
