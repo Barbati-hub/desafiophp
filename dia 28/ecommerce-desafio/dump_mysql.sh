@@ -1,0 +1,1 @@
+mysqldump -uroot -p'Dd@84255798' desafio > dump.sql

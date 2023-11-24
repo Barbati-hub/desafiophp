@@ -5,7 +5,7 @@
 $host = 'localhost'; // altere conforme sua configuração
 $db = 'desafio';
 $user = 'root'; // substitua pelo seu usuário do MySQL
-$pass = 'Dd@84255798'; // substitua pela sua senha do MySQL
+$pass = ''; // substitua pela sua senha do MySQL
 $charset = 'utf8mb4';
 //$port = 3306; // especificando a porta
 

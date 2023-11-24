@@ -17,7 +17,7 @@ class IlluminateRepositorio {
             'host'      => getenv('HOST_MYSQL') ? getenv('HOST_MYSQL') : 'localhost',
             'database'  => getenv('DB_NAME') ? getenv('DB_NAME') : 'desafio',
             'username'  => getenv('DB_USER') ? getenv('DB_USER') : 'root',
-            'password'  => getenv('DB_PASSWORD') ? getenv('DB_PASSWORD') : 'Dd@84255798',
+            'password'  => getenv('DB_PASSWORD') ? getenv('DB_PASSWORD') : '',
             'charset'   => getenv('DB_CHARSET') ? getenv('DB_CHARSET') : 'utf8',
             'collation' => getenv('DB_COLLATION') ? getenv('DB_COLLATION') : 'utf8_unicode_ci',
             'port'      => getenv('DB_PORT') ? getenv('DB_PORT') : 3306,

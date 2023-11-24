@@ -6,7 +6,7 @@ class MysqlRepositorio{
         $this->host = getenv('HOST_MYSQL') ? getenv('HOST_MYSQL') : 'localhost';
         $this->db = getenv('DB_NAME') ? getenv('DB_NAME') : 'desafio';
         $this->user = getenv('DB_USER') ? getenv('DB_USER') : 'root';
-        $this->pass = getenv('DB_PASSWORD') ? getenv('DB_PASSWORD') : 'Dd@84255798';
+        $this->pass = getenv('DB_PASSWORD') ? getenv('DB_PASSWORD') : '';
         $this->charset = getenv('DB_CHARSET') ? getenv('DB_CHARSET') : 'utf8mb4';
         $this->port = getenv('DB_PORT') ? getenv('DB_PORT') : 3306;
 
